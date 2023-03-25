@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<style>
+    #check-caracter {
+        margin-left: 10px;
+        align-items: center;
+    }
+</style>
+<body>
+    <form action="">
+        <div class="container-fluid">
+            <h3>Digite/Cole uma frase</h3>
+            <textarea class="form-control" autofocus placeholder="Digite aqui uma frase"></textarea><br>
+            <h4>Substituir:</h4>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check-espaco" checked/>
+                <label class="form-check-label" for="check-espaco">" " espaço em branco</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="check-underline" checked/>
+                <label class="form-check-label" for="check-underline">"_" underline</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="check-hifen" checked/>
+                <label class="form-check-label" for="check-hifen">"-" hífen</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="check-parentese_esq" checked/>
+                <label class="form-check-label" for="check-parentese_esq">"(" parentese esquerdo</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="check-parentese_dir" checked/>
+                <label class="form-check-label" for="check-parentese_dir">")" parentese direito</label>
+                <br><br>    
+            </div>
+            <h4>Por:</h4>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check-underline" checked/>
+                <label class="form-check-label" for="check-underline">"_" underline</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="check-espaco" />
+                <label class="form-check-label" for="check-espaco">" " espaço em branco</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="check-hifen" />
+                <label class="form-check-label" for="check-hifen">"-" hífen</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="check-parentese_esq" />
+                <label class="form-check-label" for="check-parentese_esq">"(" parentese esquerdo</label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="check-parentese_dir" />
+                <label class="form-check-label" for="check-parentese_dir">")" parentese direito</label>
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary">Substituir</button>
+            <br><br>
+            <h4>Resultado:</h4>
+            <textarea class="form-control" ></textarea><br>
+        </div>
+        
+    </form>
+</body>
+</html>
